@@ -11,6 +11,7 @@ return {
   { import = "astrocommunity.completion.cmp-cmdline" },
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.vue" },
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.markdown" },
