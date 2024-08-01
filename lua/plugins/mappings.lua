@@ -5,6 +5,13 @@ return {
     opts = {
       mappings = {
         -- first key is the mode
+        i = {
+          -- 编辑模式下的左右下上
+          ["<C-h>"] = { "<Left>", desc = "Move left" },
+          ["<C-l>"] = { "<Right>", desc = "Move right" },
+          ["<C-j>"] = { "<Down>", desc = "Move down" },
+          ["<C-k>"] = { "<Up>", desc = "Move up" },
+        },
         n = {
           -- second key is the lefthand side of the map
           -- mappings seen under group name "Buffer"
