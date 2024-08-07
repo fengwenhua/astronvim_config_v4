@@ -15,4 +15,5 @@ return {
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.markdown" },
+  { import = "astrocommunity.completion.codeium-vim" },
 }
